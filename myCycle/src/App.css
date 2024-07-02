@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.react-datepicker__header{
+  background-color: rgb(98, 211, 177) ;
+}
+.react-datepicker__current-month{
+  color:white;
+}
+
+.react-datepicker-time__header{
+  color: white;
+}
+.react-datepicker__day-name{
+  color:white;
+}
+.react-datepicker__day{
+  color:rgb(250, 108, 103) ;
+}
+.react-datepicker__day--selected{
+  background-color: rgb(98, 211, 177);
+  color: black;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em  rgb(18, 18, 66););
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em  rgb(18, 18, 66));
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.style-calendar{
+  background-color: azure;
+  color: rgb(250, 108, 103);
+  border:rgb(250, 108, 103) solid;
+  background-color:azure;;
+}
+
+.style-input{
+  padding: 10px;
+  border: 1px solid rgb(250, 108, 103);
+  border-radius: 5px;
+  background-color:white;
+  align-items: center;
+  justify-content: center; 
+  color:rgb(98, 211, 177);
+}
+
+body{
+  background-color: #d8d5d5;
+}
